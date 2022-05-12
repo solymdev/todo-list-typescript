@@ -35,11 +35,7 @@ function Main() {
 
   const changeCheckBoxState = (position) => {
     const newState = [...todoList];
-    if (newState[position].state === true) {
-      newState[position].state = false;
-    } else {
-      newState[position].state = true;
-    }
+    newState[position].state = !newState[position].state;
     setTodoList(newState);
   };
 
