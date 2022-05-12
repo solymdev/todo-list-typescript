@@ -1,9 +1,8 @@
 /* eslint-disable comma-dangle */
 import React, { useEffect, useState } from 'react';
 import Form from 'react-bootstrap/Form';
-import Button from 'react-bootstrap/button';
 import { nanoid } from 'nanoid';
-import { Row, Col } from 'react-bootstrap';
+import { Row, Col, Button } from 'react-bootstrap';
 import logo from '../assets/logo.svg';
 import styles from './main.module.scss';
 
